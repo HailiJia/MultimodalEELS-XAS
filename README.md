@@ -6,21 +6,21 @@ This repository contains code and data for analysis of multimodal spectroscopies
 
 ## Data
 
-- **Simulated Data**
-  - `Data/NMC_fdmnes.json`  
+- **Simulated Data** `Data/Sim_data/` 
+  - `NMC_fdmnes.json`  
     A list of simulated spectra. Each entry is a dictionary with:
     - `composition`: e.g. NMC811
     - `structure_id`: structure identifier
     - `structure`: pymatgen `Structure` object
     - `O`, `Ni`, `Mn`, `Co`: corresponding simulated spectra (energy, intensity)
-  - `Data/O_in.txt`, `Data/Ni_in.txt`, `Data/Mn_in.txt`, `Data/Co_in.txt`
+  - `O_in.txt`, `Ni_in.txt`, `Mn_in.txt`, `Co_in.txt`
     - Fdmnes input files for simulation
 
-- **Experimental Data**
-  - `Data/XAS/`  
+- **Experimental Data** `Data/Exp_data/`
+  - XAS data `/XAS/`  
     - Contain O K-edge and transition metal L-edge XAS spectra
     - Excel sheet `NCM MW & TC.xlsx` used to calculate Li content from capacity
-  - `Data/EELS/`  
+  - EELS data `/EELS/`  
     - Contains EELS spectra of 5% Si-doped NMC.
     - Subfolder `/TM/`  
       - Transition metal (Ni, Mn, Co) EELS data.
