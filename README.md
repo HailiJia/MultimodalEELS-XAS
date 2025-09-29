@@ -40,6 +40,7 @@ This repository contains code and data for analysis of multimodal spectroscopies
   - `xgboost`
   - `hyperopt`
   - `pymatgen`
+  - `torch`
 
 ---
 
